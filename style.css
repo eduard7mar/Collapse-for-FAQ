@@ -1,0 +1,69 @@
+.often-questions {
+  position: relative;
+}
+.often-questions h2 {
+  margin-bottom: 4rem;
+}
+.often-questions h2,
+.often-questions .p-heading {
+  text-align: center;
+}
+.often-questions .accordion-heading {
+  font-size: 2rem;
+  cursor: pointer;
+  text-align: center;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+.often-questions .accordion-heading span {
+  border-bottom: 2px dotted #333;
+}
+.often-questions p.active-style span {
+  color: #e950d7;
+  font-weight: 900;
+  text-decoration: none;
+  border: 0;
+}
+.often-questions .accordion-block {
+  background-color: #f7e7e6;
+  max-height: 0;
+  opacity: 0;
+  transition: all 0.3s ease-out;
+  overflow: hidden;
+}
+.often-questions .accordion-block.active-content {
+  overflow: visible;
+  opacity: 1;
+  padding: 3rem 4rem;
+  margin-top: 1rem;
+}
+.often-questions .accordion-block:before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -6rem;
+  border: 3rem solid transparent;
+  border-bottom: 3rem solid #f7e7e6;
+}
+.often-questions .ui-accordion-header-active {
+  cursor: auto;
+  color: #c51abb;
+  margin-bottom: 0;
+}
+.often-questions .ui-accordion-header-active span {
+  border-bottom: none;
+}
+.often-questions .ui-accordion-content-active {
+  margin-bottom: 4rem;
+}
+.often-questions .brushes {
+  position: absolute;
+  bottom: 0;
+  right: 5%;
+}
+.often-questions .spirt {
+  position: absolute;
+  top: -25rem;
+  left: 0;
+}
